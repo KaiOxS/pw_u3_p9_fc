@@ -1,6 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
+    <router-link to="/hola">hola</router-link> |
+    <router-link to="/pokemon">pokemon</router-link> |
+    <router-link to="/pregunta">pregunta</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
